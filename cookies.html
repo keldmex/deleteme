@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Settings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        nav {
+            background-color: #f8f9fa;
+            padding: 1rem;
+            margin-bottom: 2rem;
+        }
+        nav a {
+            margin-right: 1rem;
+            text-decoration: none;
+            color: #333;
+        }
+        nav a:hover {
+            color: #007bff;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .cookie-section {
+            background-color: #f8f9fa;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 4px;
+        }
+        .cookie-toggle {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+        .button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="cookies.html">Cookie Settings</a>
+        </nav>
+        
+        <h1>Cookie Settings</h1>
+        
+        <main>
+            <p>Manage your cookie preferences below. Some cookies are necessary for the website to function and cannot be disabled.</p>
+
+            <div class="cookie-section">
+                <div class="cookie-toggle">
+                    <div>
+                        <h3>Necessary Cookies</h3>
+                        <p>These cookies are required for basic site functionality and cannot be disabled.</p>
+                    </div>
+                    <input type="checkbox" checked disabled>
+                </div>
+            </div>
+
+            <div class="cookie-section">
+                <div class="cookie-toggle">
+                    <div>
+                        <h3>Analytics Cookies</h3>
+                        <p>These cookies help us understand how visitors interact with our website.</p>
+                    </div>
+                    <input type="checkbox" id="analytics">
+                </div>
+            </div>
+
+            <div class="cookie-section">
+                <div class="cookie-toggle">
+                    <div>
+                        <h3>Marketing Cookies</h3>
+                        <p>These cookies are used to deliver advertisements more relevant to you and your interests.</p>
+                    </div>
+                    <input type="checkbox" id="marketing">
+                </div>
+            </div>
+
+            <div class="cookie-section">
+                <div class="cookie-toggle">
+                    <div>
+                        <h3>Preference Cookies</h3>
+                        <p>These cookies allow our website to remember choices you make when you visit our website.</p>
+                    </div>
+                    <input type="checkbox" id="preferences">
+                </div>
+            </div>
+
+            <button class="button" onclick="alert('Preferences saved!')">Save Preferences</button>
+
+            <div style="margin-top: 2rem;">
+                <h2>Additional Information</h2>
+                <p>Cookies are small text files that are placed on your device when you visit our website. They help make our website work better and provide a more personalized experience.</p>
+                <p>For more information about how we use cookies and your personal data, please visit our <a href="privacy.html">Privacy Policy</a>.</p>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

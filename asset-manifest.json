@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/deleteme/static/css/main.5c0a206a.css",
+    "main.js": "/deleteme/static/js/main.72511eef.js",
+    "index.html": "/deleteme/index.html",
+    "main.5c0a206a.css.map": "/deleteme/static/css/main.5c0a206a.css.map",
+    "main.72511eef.js.map": "/deleteme/static/js/main.72511eef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c0a206a.css",
+    "static/js/main.72511eef.js"
+  ]
+}
